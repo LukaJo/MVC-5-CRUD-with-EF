@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC 5 CRUD with EF", "MVC 5 CRUD with EF\MVC 5 CRUD with EF.csproj", "{20EC8D08-EF3C-44E3-A289-48E504504546}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC 5 CRUD with EFTests", "MVC 5 CRUD with EFTests\MVC 5 CRUD with EFTests.csproj", "{B03D8349-252E-4CEC-8A0C-2B35C5B5C88E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{20EC8D08-EF3C-44E3-A289-48E504504546}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20EC8D08-EF3C-44E3-A289-48E504504546}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20EC8D08-EF3C-44E3-A289-48E504504546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B03D8349-252E-4CEC-8A0C-2B35C5B5C88E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B03D8349-252E-4CEC-8A0C-2B35C5B5C88E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B03D8349-252E-4CEC-8A0C-2B35C5B5C88E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B03D8349-252E-4CEC-8A0C-2B35C5B5C88E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

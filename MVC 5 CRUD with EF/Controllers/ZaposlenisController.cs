@@ -14,6 +14,11 @@ namespace MVC_5_CRUD_with_EF.Controllers
     {
         private ZaposleniEntities db = new ZaposleniEntities();
 
+        public int Add(int num1, int num2)
+        {
+            return num1 + num2;
+        }
+
         // GET: Zaposlenis
         public ActionResult Index()
         {
@@ -25,12 +30,14 @@ namespace MVC_5_CRUD_with_EF.Controllers
         {
             if (id == null)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                return RedirectToAction("Index");
+               // return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             Zaposleni zaposleni = db.Zaposlenis.Find(id);
             if (zaposleni == null)
             {
                 return HttpNotFound();
+                
             }
             return View(zaposleni);
         }
